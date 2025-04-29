@@ -6,11 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <title>Perfil</title>
 </head>
 
 <body>
-    
+    <section class="container-fluid">
+        <nav class="navbar navbar-expand-lg  nav-color">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="./img/logo-tc.png" alt="Logo marca" class="img-fluid w-25"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/menu.png" alt="Menú">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Inicio.html">Inicio</a>
+                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Perfil.html">Perfil</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="./Contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search" style="max-width: 300px;">
+                      <input class="form-control form-control-sm me-2" type="search" placeholder="Escribe" aria-label="Escribe">
+                      <button class="btn btn-outline-success btn-sm" type="submit">Buscador</button>
+                    </form>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <br><br>
+
+    <h1 class="text-center custom-title">Perfil</h1>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+
+    <div class="card">
+        <img src="img/perfil.avif" class="card-img-top" alt="Perfil de una persona">
+        <div class="card-body">
+            <h3 class="card-title text-center">Raul Dominguez</h3>
+        <div class="d-flex justify-content-between">
+            <h6>País: Argentina</h6>
+            <h6>Localidad: La Rioja</h6>
+        </div>
+          <h6>Edad: 30 años</h6>
+          <h6 class="mb-2">Email: raul_15@hotmail.com</h6>
+        
+          <h5 class="card-title text-center mb-2">Descripción:</h5>
+
+          <p class="card-text">Es una persona entusiasta, apasionada por</p>
+          <p class="card-text">la tecnología y siempre lista para aprender</p>
+          <p class="card-text">cosas nuevas. En su tiempo libre, disfruta</p>
+          <p class="card-text">de la fotografia, viajar y explorar nuevas</p>
+          <p class="card-text">culturas.</p>
+        </div>
+      </div>
+      </div>
 
 </body>
 
